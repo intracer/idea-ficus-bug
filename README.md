@@ -1,19 +1,19 @@
 # idea-ficus-bug
+sbt "run-main ConfigReader"
 
- sbt "run-main ConfigReader"
-[info] Loading global plugins from /home/ilya/.sbt/0.13/plugins
-[info] Loading project definition from /home/ilya/wm/config/idea-ficus-bug/project
-[info] Set current project to idea-ficus-bug (in build file:/home/ilya/wm/config/idea-ficus-bug/)
-[info] Updating {file:/home/ilya/wm/config/idea-ficus-bug/}idea-ficus-bug...
-[info] Resolving jline#jline;2.12.1 ...
-[info] Done updating.
-[info] Compiling 1 Scala source to /home/ilya/wm/config/idea-ficus-bug/target/scala-2.11/classes...
-[info] Running ConfigReader 
-Subject // Body
+    [info] Loading global plugins from /home/ilya/.sbt/0.13/plugins
+    [info] Loading project definition from /home/ilya/wm/config/idea-ficus-bug/project
+    [info] Set current project to idea-ficus-bug (in build file:/home/ilya/wm/config/idea-ficus-bug/)
+    [info] Updating {file:/home/ilya/wm/config/idea-ficus-bug/}idea-ficus-bug...
+    [info] Resolving jline#jline;2.12.1 ...
+    [info] Done updating.
+    [info] Compiling 1 Scala source to /home/ilya/wm/config/idea-ficus-bug/target/scala-2.11/classes...
+    [info] Running ConfigReader 
+    Subject // Body
 
 Run with Idea:
 
-Error:scalac: Error: net/ceedubs/ficus/readers/ArbitraryTypeReaderMacros$ : Unsupported major.minor version 52.0
+     Error:scalac: Error: net/ceedubs/ficus/readers/ArbitraryTypeReaderMacros$ : Unsupported major.minor version 52.0
 java.lang.UnsupportedClassVersionError: net/ceedubs/ficus/readers/ArbitraryTypeReaderMacros$ : Unsupported major.minor version 52.0
 	at java.lang.ClassLoader.defineClass1(Native Method)
 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
